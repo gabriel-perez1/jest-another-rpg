@@ -7,7 +7,7 @@ test('creates a player object', () => {
 
 	expect(player.name).toBe('Dave');
 	expect(player.health).toEqual(expect.any(Number));
-	expect(player.strenght).toEqual(expect.any(Number));
+	expect(player.strength).toEqual(expect.any(Number));
 	expect(player.agility).toEqual(expect.any(Number));
 	expect(player.inventory).toEqual(
   expect.arrayContaining([expect.any(Object)])
